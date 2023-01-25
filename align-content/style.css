@@ -65,12 +65,31 @@ p {
   text-align: center;
   color: white;
 }
+
 .stretch {
-  align-items: stretch;
+  align-content: stretch;
 }
+
 .center {
-  align-items: center;
+  align-content: center;
 }
+
+.flex-start {
+  align-content: flex-start;
+}
+
+.flex-end {
+  align-content: flex-end;
+}
+
+.space-around {
+  align-content: space-around;
+}
+
+.space-between {
+  align-content: space-between;
+}
+
 
 .sidenav {
   height: 100%;
