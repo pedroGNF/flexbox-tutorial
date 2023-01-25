@@ -104,14 +104,19 @@ a.closebtn {
 .card {
   box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2);
   transition: 0.5s;
-  width: 17rem;
+  width: 12.51rem;
   margin-right: auto;
   margin-left: auto;
   border-radius: 0.5rem;
+  padding: 1.5rem;
 }
 
 .card:hover {
   box-shadow: 0 0.3rem 1rem 0 rgba(36, 184, 184, 0.781);
+}
+
+.cardBtn {
+  padding: 20rem;
 }
 
 .container {
