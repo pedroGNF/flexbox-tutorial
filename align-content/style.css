@@ -1,0 +1,127 @@
+body {
+  background-color: #26292a;
+}
+p {
+  color: white;
+  text-align: center;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #8b928a;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+.container {
+  height: 25rem;
+  max-width: 21.875rem;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid white;
+}
+
+.item {
+  background-color: orangered;
+  padding: 0 0.313rem;
+  margin: 0.313rem;
+  flex: 1;
+  text-align: center;
+  color: white;
+}
+.stretch {
+  align-items: stretch;
+}
+.center {
+  align-items: center;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #478891;
+  overflow-x: hidden;
+  transition: 0.7s;
+  padding-top: 3.75rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 1);
+}
+
+.sidenav a {
+  padding: 1.5rem 0.5rem 0.5rem 2rem;
+  text-decoration: solid;
+  font-size: 1.563rem;
+  color: #000;
+  display: block;
+  transition: 0.5s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 1.563rem;
+  font-size: 2.25rem;
+  margin-left: 3.125rem;
+}
+
+@media screen and (max-height: 28.125rem) {
+  .sidenav {
+    padding-top: 0.938rem;
+  }
+  .sidenav a {
+    font-size: 1.125rem;
+  }
+}
+
+.darkThemeBt {
+  float: right;
+  background-color: transparent;
+  border: 0;
+}
+.lightThemeBt {
+  float: right;
+  background-color: transparent;
+  border: 0;
+}

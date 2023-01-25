@@ -1,0 +1,108 @@
+body {
+  background-color: #26292a;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  color: white;
+  text-align: center;
+}
+
+.container {
+  max-width: 25rem;
+  border: 0.063rem solid #000;
+  margin: 0;
+  display: flex;
+  margin-top: 0.625rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.item {
+  background-color: #daa520;
+  text-align: center;
+  border-radius: 0.3rem;
+  margin: 0.313rem;
+  color: #fff;
+}
+.flex-start {
+  justify-content: flex-start;
+}
+.flex-end {
+  justify-content: flex-end;
+}
+.center {
+  justify-content: center;
+}
+.space-between {
+  justify-content: space-between;
+}
+.space-around {
+  justify-content: space-around;
+}
+.column {
+  flex-direction: column;
+  min-height: 12.5rem;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #478891;
+  overflow-x: hidden;
+  transition: 0.7s;
+  padding-top: 3.75rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 1);
+}
+
+.sidenav a {
+  padding: 1.5rem 0.5rem 0.5rem 2rem;
+  text-decoration: solid;
+  font-size: 1.563rem;
+  color: #000;
+  display: block;
+  transition: 0.5s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 1.563rem;
+  font-size: 2.25rem;
+  margin-left: 3.125rem;
+}
+
+@media screen and (max-height: 28.125rem) {
+  .sidenav {
+    padding-top: 0.938rem;
+  }
+  .sidenav a {
+    font-size: 1.125rem;
+  }
+}
+
+.darkThemeBt {
+  float: right;
+  background-color: transparent;
+  border: 0;
+}
+.lightThemeBt {
+  float: right;
+  background-color: transparent;
+  border: 0;
+}

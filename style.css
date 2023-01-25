@@ -1,0 +1,135 @@
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgb(56, 55, 83) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(7, 160, 190, 0.692) 100%
+  );
+}
+p {
+  color: #fff;
+  text-align: center;
+  font-size: larger;
+  font-style: oblique;
+}
+
+h1 {
+  color: #fff;
+  position: absolute;
+  margin-top: 3rem;
+  left: 50%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: oblique;
+  transform: translate(-50%, -50%);
+}
+
+h2 {
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 3.5rem;
+}
+
+h3 {
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 3.5rem;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #478891;
+  overflow-x: hidden;
+  transition: 0.7s;
+  padding-top: 0;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 1);
+}
+
+.sidenav a {
+  padding: 1.5rem 0rem 0rem 2rem;
+  text-decoration: solid;
+  font-size: 1.563rem;
+  color: white;
+  display: block;
+  transition: 0.5s;
+}
+
+.sidenav a:hover {
+  color: #413d3d;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  font-size: 2.25rem;
+}
+
+a.closebtn {
+  padding: 0;
+  right: 1rem;
+}
+
+@media screen and (max-height: 28.125rem) {
+  .sidenav {
+    padding-top: 0rem;
+  }
+  .sidenav a {
+    font-size: 1.125rem;
+  }
+}
+
+.darkThemeBt {
+  float: right;
+  background-color: transparent;
+  border: 0;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.2);
+}
+.lightThemeBt {
+  float: right;
+  background-color: transparent;
+  border: 0;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.2);
+}
+
+.card {
+  box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+  width: 17rem;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 0.5rem;
+}
+
+.card:hover {
+  box-shadow: 0 0.3rem 1rem 0 rgba(36, 184, 184, 0.781);
+}
+
+.container {
+  padding: 0.125rem 1rem;
+  flex-direction: column;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 62rem;
+  max-height: fit-content;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1.85rem;
+}
+
+.home {
+  margin-left: 5rem;
+}
+
