@@ -16,6 +16,7 @@ p {
 
 h1 {
   color: #fff;
+  background-color: initial;
   position: absolute;
   margin-top: 3rem;
   left: 50%;
@@ -102,13 +103,14 @@ a.closebtn {
 }
 
 .card {
-  box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.288);
   transition: 0.5s;
   width: 12.51rem;
   margin-right: auto;
   margin-left: auto;
-  border-radius: 0.5rem;
+  border-radius: 0.75rem;
   padding: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .card:hover {
@@ -137,4 +139,3 @@ section {
 .home {
   margin-left: 5rem;
 }
-
