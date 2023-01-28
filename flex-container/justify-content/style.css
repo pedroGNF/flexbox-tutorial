@@ -62,34 +62,37 @@ p {
   background-color: #478891;
   overflow-x: hidden;
   transition: 0.7s;
-  padding-top: 3.75rem;
+  padding-top: 0;
   box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 1);
 }
 
 .sidenav a {
-  padding: 1.5rem 0.5rem 0.5rem 2rem;
+  padding: 1.5rem 0rem 0rem 2rem;
   text-decoration: solid;
   font-size: 1.563rem;
-  color: #000;
+  color: white;
   display: block;
   transition: 0.5s;
 }
 
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: #413d3d;
 }
 
 .sidenav .closebtn {
   position: absolute;
   top: 0;
-  right: 1.563rem;
   font-size: 2.25rem;
-  margin-left: 3.125rem;
+}
+
+a.closebtn {
+  padding: 0;
+  right: 1rem;
 }
 
 @media screen and (max-height: 28.125rem) {
   .sidenav {
-    padding-top: 0.938rem;
+    padding-top: 0rem;
   }
   .sidenav a {
     font-size: 1.125rem;
