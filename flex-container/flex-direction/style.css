@@ -1,0 +1,113 @@
+body {
+  background-color: #26292a;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.flex-container {
+  margin: 0rem;
+  padding: 0rem;
+  display: flex;
+  list-style: none;
+}
+
+.flex-item {
+  background-color: blue;
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  margin: 0.5rem;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+.row-reverse li {
+  background: red;
+  flex-direction: row-reverse;
+}
+
+.column {
+  float: left;
+  flex-direction: column;
+}
+
+.column li {
+  background: orange;
+}
+
+.column-reverse {
+  float: right;
+  flex-direction: column-reverse;
+}
+
+.column-reverse li {
+  background: purple;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #478891;
+  overflow-x: hidden;
+  transition: 0.7s;
+  padding-top: 3.75rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 1);
+}
+
+.sidenav a {
+  padding: 1.5rem 0.5rem 0.5rem 2rem;
+  text-decoration: solid;
+  font-size: 1.563rem;
+  color: #000;
+  display: block;
+  transition: 0.5s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 1.563rem;
+  font-size: 2.25rem;
+  margin-left: 3.125rem;
+}
+
+@media screen and (max-height: 28.125rem) {
+  .sidenav {
+    padding-top: 0.938rem;
+  }
+  .sidenav a {
+    font-size: 1.125rem;
+  }
+}
+
+.darkThemeBt {
+  float: right;
+  background-color: transparent;
+  border: 0;
+}
+.lightThemeBt {
+  float: right;
+  background-color: transparent;
+  border: 0;
+}

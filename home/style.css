@@ -39,6 +39,15 @@ h3 {
   margin-top: 3.5rem;
 }
 
+section {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 62rem;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1.85rem;
+}
+
 .sidenav {
   height: 100%;
   width: 0;
@@ -124,16 +133,6 @@ a.closebtn {
 .container {
   padding: 0.125rem 1rem;
   flex-direction: column;
-}
-
-section {
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 62rem;
-  max-height: fit-content;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 1.85rem;
 }
 
 .home {
