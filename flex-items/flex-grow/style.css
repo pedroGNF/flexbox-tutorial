@@ -73,16 +73,16 @@ a.closebtn {
 
 .flex-container {
   display: flex;
-  border: 2px solid black;
-  max-width: 300px;
+  border: 0.125rem solid black;
+  max-width: 18.75rem;
   margin-left: auto;
   margin-right: auto;
 }
 
 .item {
   background-color: rgb(255, 68, 0);
-  margin: 5px;
-  padding: 10px;
+  margin: 0.313rem;
+  padding: 0.625rem;
   text-align: center;
   color: white;
 }

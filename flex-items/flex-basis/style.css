@@ -2,6 +2,20 @@ body {
   background-color: #26292a;
 }
 
+body::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: orange; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: blue; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid orange; /* creates padding around scroll thumb */
+}
+
 h1 {
   color: white;
   text-align: center;
@@ -26,7 +40,7 @@ h2 {
   box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 1);
 }
 
-.sidenav a {
+.sidenav a  {
   padding: 1.5rem 0rem 0rem 2rem;
   text-decoration: solid;
   font-size: 1.563rem;
@@ -54,6 +68,7 @@ a.closebtn {
   .sidenav {
     padding-top: 0rem;
   }
+
   .sidenav a {
     font-size: 1.125rem;
   }
@@ -69,4 +84,55 @@ a.closebtn {
   float: right;
   background-color: transparent;
   border: 0;
+}
+
+.flex-container {
+  max-width: 31.25rem;
+  border: 0.063rem solid gray;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.items {
+  background-color: coral;
+  color: white;
+  text-align: center;
+  margin: 0.313rem;
+}
+
+.b-auto {
+  flex-basis: auto;
+}
+
+.b-0 {
+  flex-basis: 0;
+}
+
+.fg-0 {
+  flex-grow: 0;
+}
+
+.fg-1 {
+  flex-grow: 1;
+}
+
+.fg-2 {
+  flex-grow: 2;
+}
+
+.fg-3 {
+  flex-grow: 3;
+}
+
+.w100 {
+  flex-basis: 6.25rem;
+}
+
+.w50 {
+  flex-basis: 3.125rem;
+}
+
+.w25 {
+  flex-basis: 1.5625rem;
 }

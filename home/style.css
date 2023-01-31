@@ -1,5 +1,5 @@
 body {
-  background: rgb(2, 0, 36);
+  background: rgba(2, 0, 36) 0%;
   background: linear-gradient(
     90deg,
     rgb(56, 55, 83) 0%,
@@ -7,6 +7,21 @@ body {
     rgba(7, 160, 190, 0.692) 100%
   );
 }
+
+body::-webkit-scrollbar {
+  width: 1rem; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: blueviolet; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: darkblue; /* color of the scroll thumb */
+  border: 0.1rem solid blue; /* creates padding around scroll thumb */
+  border-radius: 1rem; /* roundness of the scroll thumb */
+}
+
 p {
   color: #fff;
   text-align: center;
