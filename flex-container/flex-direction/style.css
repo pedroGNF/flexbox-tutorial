@@ -9,6 +9,31 @@ h1 {
   margin-bottom: 4rem;
 }
 
+h2 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  color: white;
+}
+
+.row-txt {
+  flex-direction: row;
+}
+
+.row-reverse-txt {
+  right: 0;
+}
+
+.column-txt {
+  padding: auto;
+}
+
+.column-reverse-txt {
+  padding: auto;
+}
+
 .flex-container {
   margin: 0rem;
   padding: 0rem;

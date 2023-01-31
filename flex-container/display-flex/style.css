@@ -5,6 +5,21 @@ h1 {
   color: white;
   text-align: center;
 }
+
+h2 {
+  color: white;
+  text-align: center;
+}
+
+.block {
+  max-width: 30rem;
+  padding: 1rem;
+  border: 0.2rem solid white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .flex {
   max-width: 30rem;
   padding: 1rem;
@@ -13,6 +28,17 @@ h1 {
   margin-left: auto;
   margin-right: auto;
 }
+
+.grid {
+  max-width: 30rem;
+  padding: 1rem;
+  border: 0.2rem solid white;
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 .item {
   background-color: rgb(22, 151, 151);
   margin: 0.25rem;
