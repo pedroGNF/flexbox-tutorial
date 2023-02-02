@@ -1,0 +1,129 @@
+body {
+  background-color: #26292a;
+}
+
+body::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: orange; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: blue; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid orange; /* creates padding around scroll thumb */
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  padding-top: 2.5rem;
+  text-align: center;
+}
+
+div {
+  color: wheat;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #478891;
+  overflow-x: hidden;
+  transition: 0.7s;
+  padding-top: 0;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 1);
+}
+
+.sidenav a {
+  padding: 1.5rem 0rem 0rem 2rem;
+  text-decoration: solid;
+  font-size: 1.563rem;
+  color: white;
+  display: block;
+  transition: 0.5s;
+}
+
+.sidenav a:hover {
+  color: #413d3d;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  font-size: 2.25rem;
+}
+
+a.closebtn {
+  padding: 0;
+  right: 1rem;
+}
+
+@media screen and (max-height: 28.125rem) {
+  .sidenav {
+    padding-top: 0rem;
+  }
+  .sidenav a {
+    font-size: 1.125rem;
+  }
+}
+
+.darkThemeBt {
+  float: right;
+  background-color: transparent;
+  border: 0;
+}
+
+.lightThemeBt {
+  float: right;
+  background-color: transparent;
+  border: 0;
+}
+
+.flex-container {
+  display: flex;
+  border: 0.063rem solid gray;
+  max-width: 21.875rem;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0.5rem;
+}
+
+.items {
+  background-color: orangered;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0.313rem;
+}
+
+.s-0 {
+  flex-shrink: 0;
+  flex-basis: 6.25rem;
+}
+
+.s-1 {
+  flex-shrink: 1;
+}
+
+.s-2 {
+  flex-shrink: 2;
+  flex-basis: 6.25rem;
+}
+
+.s-3 {
+  flex-shrink: 3;
+  flex-basis: 6.25rem;
+
+}
+
+.fg-1 {
+  flex-grow: 1;
+}
