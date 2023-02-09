@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css" />
   <script src="script.js"></script>
-  <title>Fundamentos - Flex</title>
+  <title>Fundamentos - Flex Shrink</title>
 </head>
 
 <body>
@@ -33,8 +33,7 @@
     <a href="../flex-container/justify-content/index.html">justify-content</a>
     <a href="../flex-items/flex-grow/index.html">flex-grow</a>
     <a href="../flex-items/flex-basis/index.html">flex-basis</a>
-    <a href="../flex-items/flex-shrink/index.html">flex-shrink</a>
-    <a href="../flex-items/flex/index.html">flex</a>
+    <a href="index.html">flex-shrink</a>
   </div>
   <!-- Qian symbol -->
   <span style="font-size: 3.125rem; cursor: pointer; color: white" onclick="openNav()">&#9776;</span>
@@ -47,33 +46,44 @@
     <img src="../../assets/night.png" height="40" width="55" />
   </button>
   </div>
-  <h1>Fundamentos - Flex</h1>
+  <h1>Fundamentos - order</h1>
 
-  <h2>flex 1</h2>
+  <h2>row</h2>
+  <h3>order: 0</h3>
   <div class="flex-container">
-    <div class="item flex-1">A</div>
-    <div class="item flex-1">BBB</div>
-    <div class="item flex-1">CC</div>
-    <div class="item flex-1">D</div>
-    <div class="item flex-1">EF</div>
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+    <div class="item">4n</div>
+    <div class="item">4m</div>
+  </div>
+  <h3>order: diferentes</h3>
+  <div class="flex-container">
+    <div class="item ol3">1</div>
+    <div class="item ol2">4</div>
+    <div class="item ol3">4n</div>
+    <div class="item ol1">4m</div>
   </div>
 
-  <h2>flex mix</h2>
-  <div class="flex-container">
-    <div class="item flex-1">A</div>
-    <div class="item flex-2">BBB</div>
-    <div class="item flex-2">CC</div>
-    <div class="item flex-1">D</div>
-    <div class="item flex-1">EF</div>
+  <h2>column</h2>
+  <h3>order: 0</h3>
+  <div class="flex-container direction">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+    <div class="item">4n</div>
+    <div class="item">4m</div>
   </div>
-
-  <h2>width ignorando -> basis = 0</h2>
-  <div class="flex-container">
-    <div class="item flex-1 largura">A</div>
-    <div class="item flex-2 largura">BBB</div>
-    <div class="item flex-2 largura">CC</div>
-    <div class="item flex-1 largura">D</div>
-    <div class="item flex-1 largura">EF</div>
+  <h3>order: diferentes</h3>
+  <div class="flex-container direction">
+    <div class="item ol3">1</div>
+    <div class="item ol2">4</div>
+    <div class="item ol3">4n</div>
+    <div class="item ol1">4m</div>
   </div>
 </body>
 
