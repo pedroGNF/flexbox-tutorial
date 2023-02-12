@@ -18,7 +18,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-image: url(../assets/pickle-rick.jpg);
+  background-color: steelblue;
   background-repeat: no-repeat; /* color of the scroll thumb */
   margin: 20px;
   border: 0.1rem solid blue;
@@ -161,7 +161,7 @@ a.closebtn {
 
 .footer-basic {
   padding: 40px;
-  color: black;
+  color: steelblue;
 }
 
 .footer-basic ul {
@@ -226,7 +226,5 @@ a.closebtn {
 }
 
 .footer-ul li:hover {
-  background-color: royalblue;
-  border: 1px solid steelblue;
-  border-radius: 1rem;
+ box-shadow: 0 0.3rem 1rem 0.1rem rgba(36, 184, 184, 0.781);
 }
