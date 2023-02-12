@@ -112,15 +112,6 @@ a.closebtn {
   }
 }
 
-.footer {
-  position: absolute;
-  width: 100%;
-  height: 7rem;
-  color: white;
-  text-align: center;
-  background-color: darkblue;
-}
-
 .darkThemeBt {
   float: right;
   background-color: transparent;
@@ -169,8 +160,7 @@ a.closebtn {
 }
 
 .footer-basic {
-  padding: 40px 0;
-  background-color: rgb(17, 49, 109);
+  padding: 40px;
   color: black;
 }
 
@@ -218,6 +208,7 @@ a.closebtn {
 
 .footer-basic .social > a:hover {
   opacity: 0.9;
+  background-color: steelblue;
 }
 
 .footer-basic .copyright {
@@ -226,4 +217,16 @@ a.closebtn {
   font-size: 13px;
   color: #aaa;
   margin-bottom: 0;
+}
+
+.footer-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer-ul li:hover {
+  background-color: royalblue;
+  border: 1px solid steelblue;
+  border-radius: 1rem;
 }
