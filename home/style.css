@@ -226,5 +226,6 @@ a.closebtn {
 }
 
 .footer-ul li:hover {
- box-shadow: 0 0.3rem 1rem 0.1rem rgba(36, 184, 184, 0.781);
+ box-shadow: 0 0 6.25rem 0rem rgba(36, 184, 184, 0.781);
+ border-radius: 0.3rem;
 }
